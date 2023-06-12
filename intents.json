@@ -1,0 +1,350 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi", "Hey", "Is anyone there?", "Hello","Greetings!","Ni", "Hay","Helo"],
+     "responses": ["Hello", "Hi", "Hi there"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "pilott",
+     "patterns": ["pilot", "i want to become a pilot ", "pilot courses ", "courses for pilot "," become a pilot" , " become pilot","how to become a pilot", "how to become pilot"],
+     "responses": ["Pilots operate and navigate aircrafts, ensuring the safety of passengers and cargo. They are responsible for planning flights, communicating with air traffic control, and making split-second decisions in emergency situations.The skills required are critical thinking, decision making , communication and multitasking . The educational background is commercial pilot's license from an accredited school. These are the top institutes for pilot training courses Indira Gandhi Rashtriya Uran Academy,Bombay Flying Club,Rajiv Gandhi Academy of Aviation Technology ,Madhya Pradesh Flying Club,National Flying Training Institute. The UG courses are B.Sc. Aviation, B.E. Aeronautical Engineering .kindly refer to this link<a target='_blank' href=\"https://leverageedu.com/blog/how-to-become-a-pilot-after-12th\" ><u>how to become a pilot</u></a> "]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye"],
+     "responses": ["See you later", "Have a nice day", "Bye! Come back again"]
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks for the help"],
+     "responses": ["Happy to help!", "Any time!", "My pleasure", "You're most welcome!"]
+    },
+    {"tag": "about",
+     "patterns": ["Who are you?", "What are you?", "Who you are?" ],
+     "responses": ["I.m UGC, your bot assistant", "I'm UGC, an Artificial Intelligent bot"]
+    },
+    {"tag": "name",
+    "patterns": ["what is your name", "what should I call you", "whats your name?"],
+    "responses": ["You can call me META.", "I'm META"]
+    },
+    {"tag": "help",
+    "patterns": ["Could you help me?","help", "give me a hand please", "can you help?", "What can you do for me?", "I need a support", "I need a help", "support me please"],
+    "responses": ["Tell me how can assist you", "Tell me your problem to assist you", "Yes Sure, How can I support you"]
+    },
+    {"tag": "complaint",
+    "patterns": ["complaint", "I want to raise a complaint", "there is a complaint about a service"],
+    "responses": ["Please provide us your complaint in order to assist you", "Please mention your complaint, we will reach you and sorry for any inconvenience caused"]
+    },
+    {"tag": "noanswer",
+    "patterns": [" "],
+    "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+    "context": [""]
+    },
+   
+  {
+    "tag": "ugcnet",
+    "patterns": [ "ugcnet", "what is ugc net", "ugcnet","UGC Net"],
+    "responses":[ "UGC NET or NTA-UGC-NET, is the examination for determining the eligibility for the post of assistant professor and/or Junior Research Fellowship award in Indian universities and colleges. The examination is conducted by National Testing Agency on behalf of University Grants Commission" ],
+    "context": [""]
+  },
+  {
+    "tag": "ugc link",
+    "patterns": [ "ugcnet registration", "ugcnet link", "ugc net","how to register for ugc net" ],
+    "responses": [ "registration for ugc net <a target='_blank' href=\"https://ugcnet.nta.nic.in/\" ><u>ugc net link</u></a> "],
+    "context": [ "" ]
+  },
+
+    {"tag": "about",
+    "patterns": ["how you doing?","doing?","how are you"],
+    "responses": ["Thanks For Asking! How can I help you?"],
+    "context": [""]
+   },
+   
+    {"tag": "options",
+    "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+    "responses": ["I can guide you through your Queries related to our Organization"],
+    "context": [""]
+    },
+   
+    {"tag": "Results",
+        "patterns": ["where to find results","results","Semester results","consequences", "yeild","show result","anna university results","where to check results"],
+        "responses": ["Kindly download this app in your Android device to check your results: https://play.google.com/store/apps/details?id=com.annauniversity.cgpacalculator"],
+        "context": [""]
+    },
+    {"tag": "raise complainet",
+        "patterns": ["where to complaint","complaint","register complaint","I have a Query","query"],
+        "responses": ["kindly mail your complaints to this Mail-Id: abcdhelp@gmail.com"],
+        "context": [""]
+    },
+    {"tag": "Eligbility",
+        "patterns": ["eligiblity limit","eligiblity critera", "am i eligible to apply","eligibility","merit","qualification"],
+        "responses": ["Students who received the first and second ranks in their undergraduate degrees and those who have been accepted into graduate courses are eligible to apply for the scholarship. Students would receive a total of Rs 3,100 per month under this plan"],
+        "context": [""]
+    },
+    {"tag": "Sign in",
+        "patterns": ["Sign in", "login","log in","lag in","where to login","where to signup","signup","register account"],
+        "responses": ["you can signup or login by using the following link... <a target='_blank' href=\"https://rb.gy/rblwhe\" ><u>sign in or login</u></a> "],
+        "context": [""]
+    },
+    {"tag": "NBA",
+        "patterns": ["Can we open a new course within approved sanctioned intake without NBA?", "Where to enroll in approved but not NBA courses?","Authorized but a place to enroll in NBA courses"],
+        "responses": ["Yes, in Emerging area as per APH 2021-22"],
+        "context": [""]
+    },
+    {"tag": "AICTE",
+        "patterns": ["what is aicte","aicte?","define aicte","whats aicte?","tell me aicte","tell aicte"],
+        "responses": ["All India Council for Technical Education (AICTE) was set up in November 1945 as a national-level Apex Advisory Body to conduct a survey on the facilities available for technical education and to promote development in the country in a coordinated and integrated manner."],
+        "context": [""]
+    },
+    {"tag": "Scholarship",
+        "patterns": ["am i eligible for Scholarship", "can i get scholarship","scholarship","i want scholarship","can i avail scholarship"],
+        "responses": ["For Scholarships follow this link.. <a target='_blank' href=\"https://rb.gy/qthzxl\" ><u>Scholarship</u></a> "],
+        "context": [""]
+    },
+    {"tag": "SAP Assistance",
+        "patterns":["Who is eligible to get SAP Assistance?","what is eligibility get SAP Assistance?" , "what is SAP Assistance?", "tell me what is SAP Assistance", "SAP Assistance", "where SAP assistance is used?","SAP Assistance eligibility"],
+        "responses":["The University/Department which qualifies under Section-2(f) & 12 (B) of the UGC Act, 1956.The Department should have at least six teachers including oneProfessor to become eligible for induction under SAP."]
+    },
+    {"tag": "SAP scheme",
+        "patterns":["what is SAP scheme?","define SAP Scheme","tell about SAP scheme","what is mean by SAP Scheme?", "Are colleges eligible for SAP scheme","Are colleges eligible to apply under SAP schemes?","are colleges eligile for assistance under SAP Sceheme","SAP Scheme","did colleges eligible for SAP scheme"],
+        "responses":["No, only departments of a university are eligible for assistance under SAP scheme."]
+    },
+    {"tag": "NonRecurring grant",
+        "patterns":["what's NonRecurring grant","define NonRecurring grant","Define continuous subsidy"," tell about NonRecurring grant","When is the NonRecurring grant released?","where is NonRecurring grant conducted?","where is NonRecurring grant happened","what is NonRecurring grant?","NonRecurring grant","when NonRecurring grant is released","settlement in NonRecurring grant"],
+        "responses":["The Non-Recurring grant (excluding renovation grant of building) for the newly inducted department will be released in the first year. The Non-Recurring grant for on-going projects will be released only after settlement of accounts of previous phase."]
+    },
+    {"tag": "renovation",
+        "patterns":["What is the procedure to release the renovation/up-gradation of building grant?","What is the building subsidy","what is building grant?","what is procedure to release renovation of building grant?","define building grant","tell me about building grant" ,"procedure for building grant","building grant","upgradation of building grant"],
+        "responses":["Grant is released after receipt of plan and estimates alongwith other certificates duly signed by the University Engineer and Registrar. Details may be seen on UGC website."]
+    },
+    {"tag": "period of utilisation",
+        "patterns":["What is the period of utilisation of NonRecurring grant?" ,"period of utilisation for equipment","The duration of use for equipment", " weather UGC may for refund of un-utilized amount of Nonrecurring grant","did UGC may for refund of un-utilized amount of Nonrecurring grant","will UGC ask for refund of un-utilized amount of Nonrecurring grant","what is period of utilisation in equipment grant","NonRecurring grant time period", "tell about time period utilisation in nonrecurring grant","what is time period in nonRecurring grant", "equipment grant"],
+        "responses":["Non-recurring grant released by the UGC should be utilized by the Department/ University positively within a period of three years from the date of receipt of the grant, otherwise UGC may ask for refund of un-utilized amount of Nonrecurring grant."]
+    }, 
+    {"tag": "additional grant",
+        "patterns":["Whether additional grant is provided for maintenance of equipment?","are additional grant is provided for maintainance","additional grant",""],
+        "responses":["No separate grant is provided for maintenance. For details refer to SAP guidelines."]
+    },
+    {"tag": "grant delay",
+        "patterns":["Reason for delay in release of grant?","Cause delay in grant","to whom delay grant is released","statement of expenditure and utilization in grant release in delay", "what is delay in release of grant","delay in release of grant"],
+        "responses":["Grant is released to University/Department only after receipt of the Statement of Expenditure and Utilization Certificate of the previous grant and also subject to availability of funds."]
+    },
+    {"tag": "seminar grants",
+        "patterns":["Whether two or more Seminar grants can be clubbed to organise a single seminar?","seminar grants","two or more seminar grants","organise single seminar with two grants", "organise clubbed seminar grants"],
+        "responses":["The request may be sent to UGC for consideration along with the recommendations of the Advisory Committee."]
+    },
+    {"tag": "extension period",
+        "patterns":["Whether any extension period for utilisation of recurring grant is given?","The extension period","extension period for recurring grant","how much extention period in recurring grants","utilisation of grant time period","extention period of grant"],
+        "responses":["When the recurring grant is released in the last quarter of financial year extension of six months for the utilisation of the recurring grant is granted(except Project Fellow salary) on receipt of request from the University/Department. "]
+    },
+    {"tag":"project fellow",
+        "patterns":["What should the age and qualifications of Project Fellow?","project fellow ", "define project fellow","what is age of project fellow","what is qualification of project fellow","quaification of project fellow", "define project qualification","eligibility for project"],
+        "responses":["The person to be considered for appointment as Project Fellow must have second class master's degree with a minimum of 55% marks for general category (50% in case of SC/ST/PH). The candidate to be appointed as Project Fellow should be below the age of 40 years at the time of appointment."]
+
+    },
+    {"tag": "types of universities",
+        "patterns": ["how many types of universities under ugc", "types of universities under ugc","Universities under UGC","Universities under the UGC"],
+        "responses": ["These are central universities, state universities, deemed universities and private universities."],
+        "context": [""]
+    },
+    {"tag": "Central Universities",
+        "patterns": ["information about central universities", "about central universities under ugc","about central universities","central universities"],
+        "responses": ["Follow this link to get information about central universities...<a target='_blank' href=\"https://www.ugc.ac.in/centraluniversity.aspx\" ><u>central universities</u></a>  "],
+        "context": [""]
+    },
+    {"tag": "State Universities",
+        "patterns": ["information about state universities", "about state universities under ugc","about state universities","state universities"],
+        "responses": ["Follow this link to get information about state universities... <a target='_blank' href=\"https://www.ugc.ac.in/stateuniversity.aspx\" ><u>state universities</u></a> "],
+        "context": [""]
+    },
+    {"tag": "Deemed Universities",
+        "patterns": ["information about deemed universities", "about deemed universities under ugc","about deemed universities","deemed universities","Universities considered","Deemed Universities"],
+        "responses": ["Follow this link to get information about deemed universities... <a target='_blank' href=\"https://www.ugc.ac.in/page/Deemed-Universities.aspx\" ><u>Deemed universities</u></a> "],
+        "context": [""]
+    },
+    {"tag": "Private Universities",
+        "patterns": ["information about private universities","information about state private universities", "about private universities under ugc","about state private universities under ugc","about private universities","about state private universities","private universities","state private universities"],
+        "responses": ["Follow this link to get information about private universities... <a target='_blank' href=\"https://www.ugc.ac.in/privatuniversity.aspx\" ><u>private universities</u></a> "],
+        "context": [""]
+    },
+    {"tag": "Number of Universities",
+        "patterns": ["total number of universities","total number of universities under ugc ", "number of universities under ugc","information about universities under ugc","Number of universities under UGC"],
+        "responses": ["Follow this link to get information about universities under ugc... <a target='_blank' href=\"https://www.ugc.ac.in/oldpdf/Consolidated%20list%20of%20All%20Universities.pdf\" ><u>No of universities under ugc</u></a> "],
+        "context": [""]
+    },
+    {"tag": "UGC specified degrees",
+        "patterns": ["ugc specified degrees","UGC specific degrees","recognition of degrees","degrees available","recognized degrees","degrees available under UGC","degrees available","UGC specified degree"],
+        "responses": ["A list of UGC specified degrees under Section 22 of UGC Act, 1956 is available on UGC website at <a target='_blank' href=\"http://www.ugc.ac.in/pdfnews/1061840_specification-of-degrees-july-2014.pdf\" ><u>available Degree</u></a> "],
+        "context": [""]
+    },
+    {"tag": "Validity of degree",
+        "patterns": ["validity of degree","validity of degrees","what is the validity of a degree","Degree of degree","The validity of the degree"],
+        "responses": ["A statutory university can award degree specified under Section 22 of UGC Act, 1956, with the due approval of its competent councils and statutory councils, wherever required and in accordance with the Regulations notified by UGC from time to time."],
+        "context": [""]
+    },
+    {"tag": "start ups",
+        "patterns": ["information about startups","start ups","startups","incubators","project incubators"],
+        "responses": ["follow this link to get information about startups and incubators....<a target='_blank' href=\"https://www.collegesearch.in/collections-colleges-with-best-startup-incubators\" ><u>startups and incubators</u></a> "],
+        "context": [""]
+    },
+    {"tag": "career options",
+        "patterns": ["career options","options after 12th","college careers"],
+        "responses": ["follow this link to get information about career options under.....<a target='_blank' href=\"https://school.careers360.com/articles/career-options-after-12th\" ><u>carrier option after school</u></a> "],
+        "context": [""]
+    },
+    {"tag": "new degree courses",
+        "patterns": ["new degree courses","new degree","new degree courses under ugc","ugc approved new degree courses"],
+        "responses": ["Medicine And Surgery,Bachelor of Sowa Rigpa Medicine and Surgery (BSRMS),Engineering/ Technology /Architecture/ Design , Bachelor of Fashion Technology (BFTech) , Master of Fashion Technology (MFTech) ,Master of Fashion Management (MFM) , Bachelor of Urban Design (BUD) , Master of Urban Design (MUD), Bachelor of Sports Management (BSM) ,Masters of Sports Management (MSM) , Bachelor of Sports Science (BSS) ,Master of Sports Science (MSS)"],
+        "context": [""]
+    },
+    {"tag": "number of colleges",
+    "patterns": ["How many colleges comes under UGC","number of colleges under ugc","colleges under ugc"],
+    "responses": ["As of 31 March 2021, the UGC lists 443 state universities. The oldest establishment date listed by the UGC is 1857, shared by the University of Mumbai, the University of Madras and the University of Calcutta."],
+    "context": [""]
+    },
+    {"tag": "guidelines for auto clg",
+    "patterns": ["guidelines for autonomous colleges","guidelines for autonomous college","rules for autonomous college","rules for autonomous colleges"],
+    "responses": ["Follow this link for your answer...<a target='_blank' href=\"https://www.ugc.ac.in/pdfnews/2166758_Revised-Guidelines-for-autonomous-college-15.05.2017.pdf\" ><u>guidelines for autonomous college</u></a> "],
+    "context": [""]
+    },
+    {"tag": "rules of ugc",
+    "patterns": ["rules of ugc","rules for ugc","ugc rules"],
+    "responses": ["Promote and coordinate UGC approved universities.Formulate regulations to set up minimum higher education standards.Evaluate the advancement n the field of University and College Education.Organize examination standards for UGC Net, CSIR NET, and ICAR NET etc."],
+    "context": [""]
+    },
+    {"tag": "refund of fees",
+    "patterns": ["guidelines for refund of fees","refund of fees","ugc guidelines under refund of fees","can fees be refunded"],
+    "responses": ["All higher education institutions have been directed to refund 100% fees to students without any cancellation charges. The University Grant Commission (UGC) has issued a notification making it mandatory for universities to refund the entire fees of students in case of cancellation or migration upto October 31, 2022."],
+    "context": [""]
+    },
+    {"tag": "e learning",
+        "patterns": ["e-learning","e-learning under ugc","is e-learning approved by ugc"],
+        "responses": ["The University Grants Commission (UGC) has tied up with the ministry of electronics and information technology (MeitY) to integrate the e-resources with their over 7.5 lakh Common Service Centres (CSC) and Special Purpose Vehicle (SPV) Centres to offer these courses from the forthcoming academic session of 2022-23"],
+        "context": [""]
+    },
+    {"tag": "Hostel facilities",
+    "patterns": ["guidelines for hostel facilities"],
+    "responses": ["follow this link to get you information....<a target='_blank' href=\"https://www.ugc.ac.in/oldpdf/xplanpdf/womenhostel.pdf\" ><u>hostel Facilities</u></a> "],
+    "context": [""]
+    },
+    {"tag": "sports",
+    "patterns": ["sports","sports under ugc","ugc sports"],
+    "responses": ["In a big decision, the University Grants Commission has made Sports a mandatory subject in all the universities and colleges across the country. The intutions will have to take care of the student's mental and physical well-being."],
+    "context": [""]
+    },
+    {"tag": "online course",
+    "patterns": ["online courses","ugc approved online courses ","does ugc approve online courses","does ugc approve online course"],
+    "responses": ["UGC Approved 38 Universities to offer Online Degree Programs. Recently, the UGC (University Grants Commission) As per National Education Policy 2020, UGC has approved 38 universities to provide online courses."],
+    "context": [""]
+    },
+    {"tag": "security",
+    "patterns": ["security","safety of students", "guidelines for safety of students", "safety of students under on campus", "safety of students under off campus"],
+    "responses": ["refer this under... <a target='_blank' href=\"https://www.ugc.ac.in/pdfnews/4006064_Safety-of-Students-Guidelines.pdf\" ><u>students security</u></a> "],
+    "context": [""]
+    },
+    {"tag": "ugc approval",
+    "patterns": ["ugc approved colleges","how do i check my college is approved by ugc"],
+    "responses": ["First of all check on their Official Website. If, they are claiming that the University is UGC approves and you have doubt. Then you can check it on the Official website of UGC. If you found the University name on the official website of UGC then it clearly reflects that the University is UGC approved also kindly refer here for your answer..... <a target='_blank' href=\"https://zollege.in/education/ugc-approved-colleges\" ><u>ugc approved college</u></a> "],
+    "context": [""]
+    },
+    {"tag": "ranking",
+    "patterns": ["rank","rankings","colleges rankings","ugc approved colleges based on ranking"],
+    "responses": ["follow this link to get you information....<a target='_blank' href=\"https://www.getmyuni.com/ugc-approved-colleges/india\" ><u>Ranking</u></a> "],
+    "context": [""]
+    },
+    {"tag": "placement",
+    "patterns": ["placement","placements","college placements"],
+    "responses": ["follow this link to get you information....<a target='_blank' href=\"https://www.careerindia.com/top-25-engineering-colleges-based-on-placement-and-industry-inteface-011291.html\" ><u>placement top colleges</u></a> "],
+    "context": [""]
+    },
+    {"tag": "ugc",
+    "patterns": ["ugc","what is ugc","UGC"],
+    "responses": ["University Grants Commission is a statutory body set up by the Department of Higher Education, Ministry of Education, Government of India in accordance to the UGC Act 1956[2] and is charged with coordination, determination and maintenance of standards of higher education in India. It provides recognition to universities in India, and disbursements of funds to such recognized universities and colleges."],
+    "context": [""]
+    },
+    {"tag": "chairman ugc",
+    "patterns": ["chairman of ugc","ugc chairman"],
+    "responses": ["In February 2022 M Jagadesh Kumar was appointed as the chairman of the UGC,a professor in the Department of Electrical Engineering at IIT Delhi and former VC of JNU."],
+    "context": [""]
+    },
+    {"tag": "hei",
+    "patterns": ["HEI","hei","what is hei","higher education institutions"],
+    "responses": ["India has a publicly funded higher education system that is the third largest in the world, next to the United States and China. The main governing body at the tertiary level is the University Grants Commission, which enforces its standards, advises the government, and helps coordinate between the centre and the state."],
+    "context": [""]
+    },
+    {"tag": "engineering streams",
+    "patterns": ["streams under engineering","engineering premises","engineering courses","engineering streams","engineering courses under ugc"],
+    "responses": ["The UGC-approved university comprises civil engineering, mechanical engineering, computer science engineering, mechanical & automobile engineering, electronics, & communication engineering, etc. in the lateral mode"],
+    "context": [""]
+    },
+    {"tag": "ragging",
+    "patterns": ["ragging","ragging rules","rules and regulations under ragging"],
+    "responses": ["kindly refer to this link for your answer....<a target='_blank' href=\"https://www.nitt.edu/home/students/UGC_Regulations.pdf\" ><u>ragging rules and regulations</u></a> "],
+    "context": [""]
+    },
+    {"tag": "fees structure",
+    "patterns": ["fees structure","fees structure under ugc","ugc fees structure"],
+    "responses": ["A detailed info about the fee structure is given in the link...<a target='_blank' href=\"https://www.ugc.ac.in/pdfnews/0811937_Draft-Regulation-fees-DU-Public-Notice.pdf\" ><u>ugc fees details </u></a> "],
+    "context": [""]
+    },
+    {"tag": "two full time courses",
+    "patterns": ["two full time courses","two full time courses unde ugc","is it possible to have two courses going on at the same time","two full time courses at a time"],
+    "responses": ["As a first, the UGC on April 12 announced it will allow students to pursue two full-time and same-level degree programmes in physical mode simultaneously either at the same university or different universities."],
+    "context": [""]
+    },
+    {"tag": "smart classes",
+    "patterns": ["blended mode of teaching","smart class"],
+    "responses": ["Refer to this link...<a target='_blank' href=\"https://www.ugc.ac.in/pdfnews/6100340_Concept-Note-Blended-Mode-of-Teaching-and-Learning.pdf\" ><u>smart class</u></a>  "],
+    "context": [""]
+    },
+    {
+      "tag": "top ten colleges India",
+      "patterns": [ "top ten colleges in India","top 10 colleges", "India's top colleges", "India's top ten colleges", "Top ten colleges in India" ,"top 10 colleges in india"],
+      "responses": [ "1. Indian Institute of Science (IISc) Bangalore 2. Indian Institute of Technology (IIT) Madras, 3.IIT Bombaym 4.IIT,Kharagpur 5. IIT Delhi 6. Jawaharlal Nehru University, New Delhi 7. IIT Kanpur 8. IIT Guwahati 9. IIT Roorkee 10. Banaras Hindu University" ],
+      "context": [ "" ]
+    },
+
+    {
+      "tag": "top ten colleges TN",
+      "patterns": [ "top ten colleges in Tamil Nadu", "Tamil Nadu top colleges", "top 10 Tamil nadu colleges", "Top ten colleges in Tamil Nadu", "The top ten colleges of Tamil Nadu" ],
+      "responses": [ "1. IIT Madras, Chennai , 2. CEG Anna University, Chennai ,3. CMC Vellore, Vellore , n4. NIT Trichy, Tiruchirappalli , 5. Tamil Nadu Agricultural University - [TNAU], Coimbatore , 6. Loyola College, Chennai ,7. Sri Ramachandra Institute of Higher Education and Research, Chennai, 8. Presidency College, Chennai , 9. VIT Vellore , 10. NIFT Chennai" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "top ten colleges AP",
+      "patterns": [ "top ten colleges in Andhra Pradesh", "Andhra Pradesh top colleges", "top 10 Andhra Pradesh colleges", "Top Ten Colleges in Andhra Pradesh" ],
+      "responses": [ "1. KL (Deemed to be University), 2. Indian Institute of Technology, Tirupati, 3. College of Engineering, Andhra University , 4. Vignan's Foundation for Science, Technology and Research, 5. GITAM School of Technology, Visakhapatnam, 6. Jawaharlal Nehru Technological University, Kakinada , 7. Velagapudi Ramakrishna Siddhartha Engineering College , 8. Sree Vidyanikethan Engineering College , 9. GMR Institute of Technology - GMRIT , 10. Sri Venkateswara College of Engineering and Technology, Chittoor" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "top colleges in Agriculture",
+      "patterns": [ "top colleges in agriculture", "top agriculture colleges in India", "The best colleges in agriculture", "Top", "colleges", "in", "agriculture" ],
+      "responses": [ "1. ICAR-National Dairy Research Institute, Karnal , 2. Punjab Agricultural University, Ludhiana , 3. ICAR-Indian Agricultural Research Institute, New Delhi , 4.\tICAR-Indian Veterinary Research Institute, Izatnagar" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "top colleges in Engineering",
+      "patterns": [ "top colleges in engineering", "top engineering colleges in India", "The best colleges in engineering", "The best colleges in the field of engineering", "Top college in engineering" ],
+      "responses": [ "1) Indian Institute of Technology, Bombay. 2) Indian Institute of Technology, Madras. 3) Indian Institute of Technology, Delhi. 4) Indian Institute of Technology, Kharagpur. 5)Indian Institute of Technology, Kanpur. 6) Indian Institute of Technology Roorkee. 7) Indian Institute of Technology, Guwahati" ],
+      "context": [ "" ]
+    },
+    {
+      "tag": "top colleges in Medical",
+      "patterns": [ "top colleges in Medical", "top medical colleges", "best medical colleges" ],
+      "responses": [ " 1. Maulana Azad Medical College, Delhi , 2. Kasturba medical college, Manipal , 3. King George's Medical University Lucknow , 4. Madras Medical College, Chennai , 5. Government Medical College and Hospital, Chandigarh , 6. Grant Medical College, Mumbai , 7. Osmania Medical College, Hyderabad." ],
+      "context": [ "" ]
+
+    },
+    {"tag": "cbcs",
+    "patterns": ["ugc cbcs" , "cbcs chemistry syllabus" , "cbcs syllabus","cbcs"],
+    "responses": ["follow this link to get you information....<a target='_blank' href=\"https://www.nagarjunauniversity.ac.in/ugcbcssyllabus/bscchem.pdf\" ><u>CBCS chemistry syllabus</u></a> "],
+    "context": [""]
+    }
+
+
+    
+
+]
+}
+
+
