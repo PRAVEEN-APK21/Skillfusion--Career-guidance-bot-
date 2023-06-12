@@ -1,0 +1,264 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function add(){
+var a=0,b=0,c=0,d=0,e=0,f=0,g=0,h=0,i=0,j=0,k=0;
+var a1=0,a2=0,a3=0,a4=0,a5=0,a6=0;
+a=Number(document.getElementById("first").value);
+a3=a3+a;
+a4=a4+a;
+b=Number(document.getElementById("second").value);
+a2=a2+b;
+a3=a3+b;
+c=Number(document.getElementById("third").value);
+a4=a4+c;
+d=Number(document.getElementById("fourth").value);
+a3=a3+d;
+a6=a6+d;
+e=Number(document.getElementById("fifth").value);
+a4=a4+e;
+a5=a5+e;
+a6=a6+e;
+f=Number(document.getElementById("sixth").value);
+a5=a5+f;
+a6=a6+f;
+g=Number(document.getElementById("seventh").value);
+a1=a1+g;
+a2=a2+g;
+h=Number(document.getElementById("eigth").value);
+a1=a1+h;
+i=Number(document.getElementById("ninth").value);
+a1=a1+i;
+j=Number(document.getElementById("tenth").value);
+a2=a2+j;
+k=Number(document.getElementById("eleventh").value);
+a5=a5+k;
+arr=[a1,a2,a3,a4,a5,a6];
+max=arr[0];
+for(i=0;i<6;i++){
+    if(arr[i]>max){
+        max=arr[i];
+    }
+}
+if(a1==max){
+    document.getElementById("answer").value='Civil Engineering';
+}
+else if(a2==max){
+    document.getElementById("answer").value='Mechanical Engineering';
+}
+else if(a3==max){
+    document.getElementById("answer").value='Electronics Engineering';
+}
+else if(a4==max){
+    document.getElementById("answer").value='Electronics and Telecommunication Engineering';
+}
+else if(a5==max){
+    document.getElementById("answer").value='Information and Technology Engineering';
+}
+else{
+document.getElementById("answer").value='Computer Engineering';
+}
+}
+</script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Alfa Slab One' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Career Suggestions</title>
+</head>
+<body>
+
+<header><nav id="header-nav" class="navbar navbar-default ">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="index.html">
+              <h1>Career Guidance</h1>
+            </a>
+          </div>
+
+          <div class="nav navbar navbar-right" id="navigation-items">
+          <ul class="nav navbar navbar-right visible-md visible-lg visible-sm" id="menu">
+            <a href="index.html"><li>Homepage</li></a>
+            <a href="streams.html"><li>Streams</li></a>
+            <a href="about.html"><li>About</li></a>
+          </ul>
+          </div>
+          
+
+          <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div class="collapse navbar-collapse" id="collapsable-nav">
+          <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+            <li>
+              <a href="index.html">Homepage</a>
+            </li>
+            <li>
+              <a href="streams.html">Streams</a>
+            </li>
+            <li>
+              <a href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+    </nav></header>
+
+<div class="col-lg-12">
+    <div id="text" class="container-fluid">
+<h1>For each option, give an answer from 0 to 5 from the amount of interest you have in field</h1>
+
+How much do you like to make new electric circuits? : 
+<select name="first" id="first" required style="color: black">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select><br>
+
+<br>How much do you like to dismantle and repair electronic circuits? : 
+<select name="second" id="second" required style="color: black">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select><br>
+
+<br>How much do you like to study about waves and signals? :
+<select name="third" id="third" required style="color: black">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select><br>
+
+<br>How much do you like to mess with a hardware of a PC? :
+<select name="fourth" id="fourth" required style="color: black">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select><br>
+
+<br>How much do you like to make softwares and apps? :
+<select name="fifth" id="fifth" required style="color: black">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select><br>
+
+<br>How much do you like programming? : 
+<select name="sixth" id="sixth" required style="color: black">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select><br>
+
+<br>How much do you like to make new designs for buildings/cars? : 
+<select name="seventh" id="seventh" required style="color: black">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select><br>
+
+<br>How much do you like beautify a new model? : 
+<select name="eigth" id="eigth" required style="color: black">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select><br>
+
+<br>How much would you like to actually build a brand new model? : 
+<select name="ninth" id="ninth" required style="color: black">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select><br>
+
+<br>How much would you like to work with tools? : 
+<select name="tenth" id="tenth" required style="color: black">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select><br>
+
+<br>How much do you like to work with security of a system? : 
+<select name="eleventh" id="eleventh" required style="color: black">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select><br>
+
+<br><button style="position: absolute; left: 20px; width: 100px" onclick="add()">Submit</button><br>
+<br>From your response, the following is the best suited career for you!
+<input id="answer" style="color: black">
+  </div>
+
+  <footer class="page-footer">
+        <div class="container-fluid">
+        <div class="col-lg-4">
+          <p><b>Contact us at:</b><br>
+          <a href="mailto:xyz@mail.com" style="text-decoration: none; color: rgb(4, 68, 69)">thenameisapk@gmail.com</a></p>
+        </div>
+
+        <div class="col-lg-4">
+          <p><b>To know more about the project:</b><br>
+          <a href="about.html" style="text-decoration: none; color: white">About Us</a></p>
+        </div>
+
+        <div class="col-lg-4">
+          <p><b>Sitemap:</b><br>
+          <a href="index.html" style="text-decoration: none; color: white">Homepage</a><br><br>
+          <a href="streams.html" style="text-decoration: none; color: white">Streams</a><br><br>
+          <a href="questions.html" style="text-decoration: none; color: white">Course Suggestion</a></p>
+        </div>
+
+        <div class="col-lg-12"><br>
+          <p style="text-align: center"><b>© APK • RMD ENGINEERING COLLEGE</b></p>
+        </div>
+        </div>
+      </footer>
+</div>
+</body>
+
+</html>
